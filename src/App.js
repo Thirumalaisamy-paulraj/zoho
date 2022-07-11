@@ -8,7 +8,7 @@ function App() {
   const [trending,setTrending] = useState([]);
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
   const [featured,setFeatured] = useState([]);
-  const [page,setPage] = useState(10);
+  const [page,setPage] = useState(20);
   const[isFetching,setIsFetching] = useInfiniteScroll(moreData);
   const [isSearchActive,setSearchActive]=useState(false);
   const [searchData,setSearchDate] = useState([]);
